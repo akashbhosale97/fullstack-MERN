@@ -1,57 +1,57 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-background: rgb(93, 93, 93);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(93, 93, 93);
 }
 
 .wrapper {
-background: #eee;
-padding: 10px;
-border-radius: 8px;
-box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.2);
+  background: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.2);
 }
 
 form {
-background: #eee;
-display: flex;
-flex-direction: column;
-padding: 10px;
-width: 300px;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
 }
 
 form input,
 textarea,
 button {
-height: 50px;
-font-size: 20px;
-outline: none;
-border: 1px solid rgba(0, 0, 0, 0.2);
-text-indent: 10px;
-margin-bottom: 20px;
-border-radius: 5px;
+  height: 50px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-indent: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 form textarea {
-height: 100px;
+  height: 100px;
 }
 
 form button {
-background: rgba(225, 131, 131, 0.776);
-border: none;
-margin: 0;
-cursor: pointer;
+  background: rgba(225, 131, 131, 0.776);
+  border: none;
+  margin: 0;
+  cursor: pointer;
 }
 
 .green {
-color: green;
-margin: 10px;
-text-align: center;
+  color: green;
+  margin: 10px;
+  text-align: center;
 }
